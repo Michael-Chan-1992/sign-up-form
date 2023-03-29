@@ -14,10 +14,45 @@
     <div class="photo-credit">Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></div>
   </div>
 
-  <form action="">
-    <div class="form-header"></div>
-    <div class="form-body"></div>
-    <div class="form-footer"></div>
-  </form>
+  <div class="form-section">
+    <div class="header">
+      <h2>This is not a real onlinr service! You know you need somehting like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
+      <h2>You <em>know</em> you want to.</h2>
+    </div>
+    <form id="create-form">
+      <h2>Let's do this!</h2>
+      <div>
+        <div class="input-group">
+          <label for="fname">first name</label>
+          <input type="text" id="fname" name="fname">
+        </div>
+        <div class="input-group">
+          <label for="lname">last name</label>
+          <input type="text" id="lname" name="lname">
+        </div>
+        <div class="input-group">
+          <label for="email">email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="input-group">
+          <label for="email">phone number</label>
+          <input type="tel" id="tel" name="tel">
+        </div>
+        <div class="input-group">
+          <label for="password">password</label>
+          <input type="password" id="password" name="password">
+          <div>* Passwords do not match</div>
+        </div>
+        <div class="input-group">
+          <label for="confirm_password">confirm password</label>
+          <input type="password" id="confirm_password" name="confirm_password">
+        </div>
+      </div>
+    </form>
+    <div class="footer">
+      <button type="submit" form="create-form">Create Account</button>
+      <p>Already have an account? <a href="">Log in</a></p>
+    </div>
+  </div>
 </body>
 </html>
