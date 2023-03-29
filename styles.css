@@ -108,9 +108,12 @@ input.error{
 }
 
 input[type="password"] + div {
-  visibility: hidden;
   color: red;
   font-size: 0.9rem;
+}
+
+.hide {
+  visibility: hidden;
 }
 
 button {
